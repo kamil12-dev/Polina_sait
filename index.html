@@ -43,21 +43,12 @@
     <header class="js-page-header fixed top-0 z-20 w-full backdrop-blur transition-colors">
       <div class="flex items-center px-6 py-6 xl:px-24">
         <!-- Logo -->
-        <a href="index.htm" class="shrink-0">
+        <a href="index.html" class="shrink-0">
           <img src="static/img/logo.png" class="max-h-7 dark:hidden" alt="Kube Shop">
-          <img src="static/img/logo_white.png" class="hidden max-h-7 dark:block" alt="Kube Shop">
+          <img src="static/img/logo_white.png" class="hidden max-h-7 dark:block posit4" alt="Kube Shop">
         </a>
 
         <!-- search -->
-        <form action="search" class="relative ml-12 mr-8 hidden basis-3/12 lg:block xl:ml-[8%]">
-          <input type="search" class="text-jacarta-700 placeholder-jacarta-500 focus:ring-accent border-jacarta-100 w-full rounded-2xl border py-[0.6875rem] px-4 pl-10 dark:border-transparent dark:bg-white/[.15] dark:text-white dark:placeholder-white" placeholder="Поиск">
-          <span class="absolute left-0 top-0 flex h-full w-12 items-center justify-center rounded-2xl">
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" class="fill-jacarta-500 h-4 w-4 dark:fill-white">
-              <path fill="none" d="M0 0h24v24H0z"></path>
-              <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path>
-            </svg>
-          </span>
-        </form>
 
         <!-- Menu / Actions -->
         <div class="js-mobile-menu dark:bg-jacarta-800 invisible fixed inset-0 z-10 ml-auto items-center bg-white opacity-0 lg:visible lg:relative lg:inset-auto lg:flex lg:bg-transparent lg:opacity-100 dark:lg:bg-transparent">
@@ -93,12 +84,14 @@
           <nav class="navbar w-full">
             <ul class="flex flex-col lg:flex-row">
               <li class="js-nav-dropdown group relative">
-                <a href="#" class="dropdown-toggle text-jacarta-700 hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5" id="navDropdown-1" aria-expanded="false" role="button" data-bs-toggle="dropdown"><b>Главная</b>
-                  
-          </a></li></ul></nav>
+                <a href="index.html" class="dropdown-toggle text-jacarta-700 hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5 posit1" id="navDropdown-1" aria-expanded="false" role="button"><b>Главная</b></a>
+                <a href="commands.html" class="dropdown-toggle text-jacarta-700 hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5 posit2" id="navDropdown-1" aria-expanded="false" role="button"><b>Команды</b></a>
+              </li>
+            </ul>
+          </nav>
 
           <div class="ml-8 hidden lg:flex xl:ml-12">
-            <a href="#" class="border-jacarta-100 hover:bg-accent focus:bg-accent group dark:hover:bg-accent js-dark-mode-trigger ml-2 flex h-10 w-10 items-center justify-center rounded-full border bg-white transition-colors hover:border-transparent focus:border-transparent dark:border-transparent dark:bg-white/[.15]">
+            <a href="index.html" class="border-jacarta-100 hover:bg-accent focus:bg-accent group dark:hover:bg-accent js-dark-mode-trigger ml-2 flex h-10 w-10 items-center justify-center rounded-full border bg-white transition-colors hover:border-transparent focus:border-transparent dark:border-transparent dark:bg-white/[.15] posit3">
               <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" class="fill-jacarta-700 dark-mode-light h-4 w-4 transition-colors group-hover:fill-white group-focus:fill-white dark:hidden">
                 <path fill="none" d="M0 0h24v24H0z"></path>
                 <path d="M11.38 2.019a7.5 7.5 0 1 0 10.6 10.6C21.662 17.854 17.316 22 12.001 22 6.477 22 2 17.523 2 12c0-5.315 4.146-9.661 9.38-9.981z"></path>
@@ -637,118 +630,7 @@ hr {
       </section>
       <!-- end trending categories -->
 
-      <!-- Process / Newsletter -->
-      <section class="dark:bg-jacarta-800 relative py-24">
-        <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-          <img src="static/img/gradient_light.jpg" alt="gradient" class="h-full">
-        </picture>
-        <div class="container">
-          <h2 class="font-display text-jacarta-700 mb-16 text-center text-3xl dark:text-white">
-            Почему наши боты?
-          </h2>
-          <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
-            <div class="text-center">
-              <div class="mb-6 inline-flex rounded-full bg-[#CDBCFF] p-3">
-                <div class="bg-accent inline-flex h-12 w-12 items-center justify-center rounded-full">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" class="h-5 w-5 fill-white">
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                    <path d="M22 6h-7a6 6 0 1 0 0 12h7v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2zm-7 2h8v8h-8a4 4 0 1 1 0-8zm0 3v2h3v-2h-3z"></path>
-                  </svg>
-                </div>
-              </div>
-              <h3 class="font-display text-jacarta-700 mb-4 text-lg dark:text-white">Лучшая производительность</h3>
-              <p class="dark:text-jacarta-300">
-                Самая лучшая производительность среди ботов moderators
-              </p>
-            </div>
-            <div class="text-center">
-              <div class="mb-6 inline-flex rounded-full bg-[#C4F2E3] p-3">
-                <div class="bg-green inline-flex h-12 w-12 items-center justify-center rounded-full">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" class="h-5 w-5 fill-white">
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                    <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"></path>
-                  </svg>
-                </div>
-              </div>
-              <h3 class="font-display text-jacarta-700 mb-4 text-lg dark:text-white">Полная гарантия</h3>
-              <p class="dark:text-jacarta-300">
-                Мы гарантируем что нитро будет у вас полный срок, что вы будете вспоминать о нас только с позитивными эмоциями!
-              </p>
-            </div>
-            <div class="text-center">
-              <div class="mb-6 inline-flex rounded-full bg-[#CDDFFB] p-3">
-                <div class="bg-blue inline-flex h-12 w-12 items-center justify-center rounded-full">
-                  <svg class="h-5 w-5 fill-white" fill="#000000" width="800px" height="800px" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12v4.143C2 17.167 2.897 18 4 18h1a1 1 0 0 0 1-1v-5.143a1 1 0 0 0-1-1h-.908C4.648 6.987 7.978 4 12 4s7.352 2.987 7.908 6.857H19a1 1 0 0 0-1 1V18c0 1.103-.897 2-2 2h-2v-1h-4v3h6c2.206 0 4-1.794 4-4 1.103 0 2-.833 2-1.857V12c0-5.514-4.486-10-10-10z"></path></svg>
-                </div>
-              </div>
-              <h3 class="font-display text-jacarta-700 mb-4 text-lg dark:text-white">Быстрая тех-поддержка</h3>
-              <p class="dark:text-jacarta-300">
-                Самая быстрая тех-поддержка которая ответит на любые ваши вопросы!
-              </p>
-            </div>
-            <div class="text-center">
-              <div class="mb-6 inline-flex rounded-full bg-[#FFD0D0] p-3">
-                <div class="bg-red inline-flex h-12 w-12 items-center justify-center rounded-full">
-                  <svg class="h-5 w-5 fill-white" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="448" height="448" viewbox="0 0 448 448" id="svg2" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="feedback-positive.svg">
-  <title id="title4147">feedback-positive</title>
-  <defs id="defs4"></defs>
-  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.7" inkscape:cx="69.076097" inkscape:cy="332.2106" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" fit-margin-top="448" fit-margin-right="384" fit-margin-left="0" fit-margin-bottom="0" units="px" inkscape:window-width="1196" inkscape:window-height="852" inkscape:window-x="871" inkscape:window-y="955" inkscape:window-maximized="0" inkscape:snap-bbox="true" inkscape:bbox-nodes="true" inkscape:object-nodes="false">
-    <inkscape:grid type="xygrid" id="grid3347" spacingx="16" spacingy="16" empspacing="2" originx="0" originy="-1.7498462e-005"></inkscape:grid>
-  </sodipodi:namedview>
-  <metadata id="metadata7">
-    <rdf:rdf>
-      <cc:work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
-        <dc:title>feedback-positive</dc:title>
-      </cc:work>
-    </rdf:rdf>
-  </metadata>
-  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-604.36224)">
-    <path style="fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 224 0 A 224 224 0 0 0 0 224 A 224 224 0 0 0 224 448 A 224 224 0 0 0 448 224 A 224 224 0 0 0 224 0 z M 152 128 A 40 39.999992 0 0 1 192 168 A 40 39.999992 0 0 1 152 208 A 40 39.999992 0 0 1 112 168 A 40 39.999992 0 0 1 152 128 z M 296 128 A 40 39.999992 0 0 1 336 168 A 40 39.999992 0 0 1 296 208 A 40 39.999992 0 0 1 256 168 A 40 39.999992 0 0 1 296 128 z M 121.40625 256 A 25.565954 27.920292 0 0 1 142.99414 268.6875 C 142.99414 268.6875 168.91711 312.16602 224.02148 312.16602 C 279.12585 312.16602 305.05078 268.6875 305.05078 268.6875 A 25.565954 27.920292 0 1 1 347.50195 299.81055 C 347.50195 299.81055 304.77887 368 224.02148 368 C 143.26408 368 100.54492 299.81055 100.54492 299.81055 A 25.565954 27.920292 0 0 1 121.40625 256 z " transform="translate(0,604.36224)" id="path3339"></path>
-  </g>
-</svg>
-                </div>
-              </div>
-              <h3 class="font-display text-jacarta-700 mb-4 text-lg dark:text-white">Довольные отзывы</h3>
-              <p class="dark:text-jacarta-300">
-                Большое количество довольных отзывов на разных в том числе и независимых площадок.
-              </p>
-            </div>
-            <div class="text-center">
-              <div class="mb-6 inline-flex rounded-full bg-[#FFD0D0] p-3">
-                <div class="bg-red inline-flex h-12 w-12 items-center justify-center rounded-full">
-                  <svg class="h-5 w-5 fill-white" version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewbox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-<style type="text/css">
-	.puchipuchi_een{fill:#FFFFF;}
-</style>
-<path class="puchipuchi_een" d="M1,24c0,1.1,0.9,2,2,2h26c1.1,0,2-0.9,2-2V12H1V24z M4,19h12c0.552,0,1,0.448,1,1s-0.448,1-1,1H4
-	c-0.552,0-1-0.448-1-1S3.448,19,4,19z M4,22h5c0.552,0,1,0.448,1,1s-0.448,1-1,1H4c-0.552,0-1-0.448-1-1S3.448,22,4,22z M31,8v1H1V8
-	c0-1.1,0.9-2,2-2h26C30.1,6,31,6.9,31,8z"></path>
-</svg>
-                </div>
-              </div>
-              <h3 class="font-display text-jacarta-700 mb-4 text-lg dark:text-white">Низкая комиссия и много способов оплаты</h3>
-              <p class="dark:text-jacarta-300">
-                Вы можете оплатить QIWI, LAVA, банковской картой, Системой Быстрых Платежей (СБП)
-              </p>
-            </div>
-            <div class="text-center">
-              <div class="mb-6 inline-flex rounded-full bg-[#CDBCFF] p-3">
-                <div class="bg-accent inline-flex h-12 w-12 items-center justify-center rounded-full">
-                  <svg class="h-5 w-5 fill-white" width="800px" height="800px" viewbox="0 0 32.000001 32.000001" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg2"><metadata id="metadata7"><rdf:rdf><cc:work><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type><dc:title></dc:title><dc:creator><cc:agent><dc:title>Timothée Giet</dc:title></cc:agent></dc:creator><dc:date>2021</dc:date><dc:description></dc:description><cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"></cc:license></cc:work><cc:license rdf:about="http://creativecommons.org/licenses/by-sa/4.0/"><cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"></cc:permits><cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"></cc:permits><cc:requires rdf:resource="http://creativecommons.org/ns#Notice"></cc:requires><cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"></cc:requires><cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"></cc:permits><cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"></cc:requires></cc:license></rdf:rdf></metadata><circle r="7.5" cy="9.5" cx="16" id="path839" style="opacity:1;vector-effect:none;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.20000005;stroke-opacity:1"></circle><path id="rect841" d="M16 19c6.648 0 12 2.899 12 6.5V32H4v-6.5C4 21.899 9.352 19 16 19z" style="opacity:1;vector-effect:none;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.20000005;stroke-opacity:1"></path></svg>
-                </div>
-              </div>
-              <h3 class="font-display text-jacarta-700 mb-4 text-lg dark:text-white">Реферальная система</h3>
-              <p class="dark:text-jacarta-300">
-                Приятная реферальная система с большими процентами, как для вас, так и для рефералов.
-                <a href="referral.html" class="hover:text-accent dark:hover:text-white">Подробнее</a>
-              </p>
-            </div>
-          </div>
-
-          </div>
-      </section>
+      
       <!-- end process / newsletter -->
     </main>
 
@@ -789,27 +671,9 @@ hr {
 <!--            </div>-->
           </div>
 
-          <div class="col-span-full sm:col-span-3 md:col-span-2 md:col-start-7">
-            <h3 class="font-display text-jacarta-700 mb-6 text-sm dark:text-white">Контакты</h3>
-            <ul class="dark:text-jacarta-300 flex flex-col space-y-1">
-              <li>
-                <a href="https://t.me/kubesupport" class="hover:text-accent dark:hover:text-white">Telegram Support</a>
-              </li>
-              <li>
-                <a href="https://t.me/Kube_shop_news" class="hover:text-accent dark:hover:text-white">Telegram News</a>
-              </li>
-              <li>
-                <a href="https://t.me/Kube_shop_bot" class="hover:text-accent dark:hover:text-white">Telegram Bot</a>
-              </li>
-            </ul>
-          </div>
+          
 
-          <div class="col-span-full sm:col-span-3 md:col-span-2">
-            <h3 class="font-display text-jacarta-700 mb-6 text-sm dark:text-white">Соц-сети</h3>
-            <ul class="dark:text-jacarta-300 flex flex-col space-y-1">
-              <li>
-                <a href="https://vk.com/nitrostore" class="hover:text-accent dark:hover:text-white">ВКонтакте</a>
-              </li>
+          
 <!--              <li>-->
 <!--                <a href="#" class="hover:text-accent dark:hover:text-white">About</a>-->
 <!--              </li>-->
@@ -825,17 +689,14 @@ hr {
 <!--            </ul>-->
           </ul></div>
 
-          <div class="col-span-full sm:col-span-3 md:col-span-2">
+          <div class="col-span-full sm:col-span-3 md:col-span-2 posit5">
             <h3 class="font-display text-jacarta-700 mb-6 text-sm dark:text-white">Страницы</h3>
             <ul class="dark:text-jacarta-300 flex flex-col space-y-1">
               <li>
                 <a href="index.htm" class="hover:text-accent dark:hover:text-white">Главная</a>
               </li>
               <li>
-                <a href="referral.html" class="hover:text-accent dark:hover:text-white">Реферальная система</a>
-              </li>
-              <li>
-                <a href="feedback.html" class="hover:text-accent dark:hover:text-white">Отзывы</a>
+                <a href="commands.html" class="hover:text-accent dark:hover:text-white">Команды</a>
               </li>
 <!--              <li>-->
 <!--                <a href="#" class="hover:text-accent dark:hover:text-white">Author Profile</a>-->
@@ -857,7 +718,7 @@ hr {
 <!--            <li>-->
 <!--              <a href="#" class="hover:text-accent">Terms and conditions</a>-->
 <!--            </li>-->
-            <li><a href="poltece.html" class="hover:text-accent">Политика</a></li>
+            <li><a href="poltece.html" class="hover:text-accent posit6">Политика</a></li>
           </ul>
         </div>
       </div>

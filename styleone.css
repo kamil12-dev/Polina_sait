@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(huy/font/Montserrat-VariableFont_wght.ttf);
+}
+
+
+* {font-family: 'Montserrat'}
+
+
+body {
+    background-color: #2a2c33;
+}
+
+img{
+    width: 130px;
+    position: relative;
+    right: -50px;
+    bottom: -20px;
+}
+
+.glav{
+    position: relative;
+    right: -1500px;
+    bottom: -20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    display: inline-flex;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+}
+
+.comd{
+    font-size: 30px;
+}
+
+.cmd{
+    color: aliceblue;
+    position: relative;
+    bottom: -110px;
+    right: -350px;
+    width: 0;
+}
+
+
+
+.one{
+    position: relative;
+    bottom: -150px;
+    width: 1160px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #1e2025;
+    font-size: 17px;
+    color: aliceblue;
+    height: 100px;
+}
+
+
+.padding{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px ;
+}
+
+.padding:first-letter{
+    color: blue;
+}
+
+.tet{
+    position: relative;
+    bottom: -10px;
+}
+
+.two{
+    position: relative;
+    bottom: -170px;
+    width: 1160px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #1e2025;
+    font-size: 17px;
+    color: aliceblue;
+    height: 100px;
+}
+
+.three{
+    position: relative;
+    bottom: -190px;
+    width: 1160px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #1e2025;
+    font-size: 17px;
+    color: aliceblue;
+    height: 100px;
+}
+
+/*.tyt{
+    padding-left: 1px;
+}
+*/
+
+
+.four{
+    position: relative;
+    bottom: -210px;
+    width: 1160px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #1e2025;
+    font-size: 17px;
+    color: aliceblue;
+    height: 100px;
+}
+
+
+
+
+
+
